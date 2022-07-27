@@ -1,0 +1,72 @@
+/* https://zmomapremiere.com/*/
+
+
+body{
+    /* font-family: 'Aventa Light', sans-serif; */
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    background-color: rgb(251, 251, 251);
+}
+img{
+    max-width: 100%;
+}
+input{
+    margin-top: 1.5em;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.159);
+}
+.text{
+    text-align: center;
+}
+}
+.inner-bg{
+    padding: 60x 0 80px 0;
+}
+.imgZedis{
+    width: 9%;
+    top: 3%;
+    position: absolute;
+}
+.rowTitle{
+    margin-top: 8em;
+    text-align: center;
+}
+
+.p{
+    border: 3px solid black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 10px;
+}
+.h3{
+    line-height: 2em;
+    text-align: center;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="password"]{
+    border-radius: 55px;
+
+}
+.form-top-left{
+    float: left;
+    width: 25%;
+    padding-top: 25px;
+    margin-left: 15px;
+    line-height: 20px;
+}
+.button{
+    margin: 0 auto;
+    border-radius: 55px;
+    color: white;
+    background-color: black;
+
+}
+@media (max-width: 767px){
+.imgZedis {
+    width: 18%;
+}
+}
