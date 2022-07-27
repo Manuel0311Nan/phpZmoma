@@ -21,6 +21,8 @@ input{
 .text{
     text-align: center;
 }
+h1{
+    text-align: center;
 }
 .inner-bg{
     padding: 60x 0 80px 0;
@@ -44,8 +46,8 @@ input{
     padding: 10px;
 }
 .h3{
-    line-height: 2em;
-    text-align: center;
+    line-height: 2em; 
+
 }
 input[type="text"], input[type="email"], input[type="number"], input[type="password"]{
     border-radius: 55px;
@@ -57,13 +59,25 @@ input[type="text"], input[type="email"], input[type="number"], input[type="passw
     padding-top: 25px;
     margin-left: 15px;
     line-height: 20px;
+    margin-right: 12px;
 }
 .button{
     margin: 0 auto;
     border-radius: 55px;
     color: white;
     background-color: black;
+    font-weight: 300;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 20%;
 
+}
+.checkboxText{
+    font-size: 10px;
+    display: inline;
+}
+.form-box{
+    margin-top: 70px;
 }
 @media (max-width: 767px){
 .imgZedis {

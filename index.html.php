@@ -19,7 +19,7 @@
                         <h1>
                             <strong>ZMOMA VIDEO PRESENTATION</strong>
                         </h1>
-                        <h3 class="h3 w-75"> ON-DEMAND CONTENT, EXCLUSIVE FOR L'OREAL</h3>
+                        <h3 class="h3 "> ON-DEMAND CONTENT, EXCLUSIVE FOR L'OREAL</h3>
                     </div>
                 </div>
                 <div class="row justify-content-between">
