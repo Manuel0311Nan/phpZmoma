@@ -96,16 +96,15 @@ function sendEmail($email, $asunto, $body)
 
   $mail = new PHPMailer\PHPMailer\PHPMailer();
   $mail->isSMTP();
-  $mail->Mailer = "SMTP";
+  $mail->Host = "smtp.serviciodecorreo.es";
   $mail->SMTPAuth = true;
   $mail->SMTPSecure = "ssl";
+  $mail->Username = "malcazar@azkenservices.com";
+  $mail->Password = 'azk44MUGA';
   $mail->isHTML(true);
   // $mail->SMTPAutoTLS = true;
   $mail->Port = 465;
   $mail->CharSet = 'UTF-8';
-  $mail->Host = "smtp.serviciodecorreo.es";
-  $mail->Username = "";
-  $mail->Password = '';
   $mail->FromName = "ZEDIS";
   $mail->Encoding = "base64";
   $mail->DKIM_passphrase = '';
